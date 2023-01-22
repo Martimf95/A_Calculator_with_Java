@@ -4,9 +4,12 @@ import java.awt.*;
 public class Window extends JFrame{
 
 
-    Window(){
+    public Window(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(new GridLayout(4,3,10,10));
+
+        ImageIcon ImageIcon = new ImageIcon("taschenrechner.jpg");
+        this.setIconImage(new ImageIcon(ImageIcon.getImage()).getImage());
 
         // created the buttons
         this.add(new JButton("1"));
