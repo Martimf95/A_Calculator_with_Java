@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c953a5a9-c856-46a9-a185-b60f3ed58ee3" name="Changes" comment="Before the Start">
-      <change beforePath="$PROJECT_DIR$/src/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Window.java" afterDir="false" />
-    </list>
+    <list default="true" id="c953a5a9-c856-46a9-a185-b60f3ed58ee3" name="Changes" comment="Merge remote-tracking branch '1.1/master'" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,11 +125,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674398678326</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Merge remote-tracking branch '1.1/master'">
+      <created>1674399386119</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674399386119</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Before the Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Before the Start" />
+    <MESSAGE value="Merge remote-tracking branch '1.0/master'" />
+    <MESSAGE value="First Idea" />
+    <MESSAGE value="Merge remote-tracking branch '1.1/master'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch '1.1/master'" />
   </component>
 </project>
