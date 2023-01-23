@@ -35,7 +35,6 @@ public class Window extends JFrame{
                 textfield.setText(textfield.getText()+1);
             }
         });
-        tasten.add(button1);
 
         // Taste "2"
         JButton button2 = new JButton("2");
@@ -45,7 +44,6 @@ public class Window extends JFrame{
                 textfield.setText(textfield.getText()+2);
             }
         });
-        tasten.add(button2);
 
         // Taste "3"
         JButton button3 = new JButton("3");
@@ -55,17 +53,7 @@ public class Window extends JFrame{
                 textfield.setText(textfield.getText()+3);
             }
         });
-        tasten.add(button3);
 
-        // Taste "Del"
-        JButton buttonDel = new JButton("Del");
-        buttonDel.addActionListener(new ActionListener() {
-
-            public void actionPerformed(ActionEvent e) {
-                textfield.setText(textfield.getText().substring(0, textfield.getText().length()-1));
-            }
-        });
-        tasten.add(buttonDel);
 
         // Taste "AC"
         JButton buttonAC = new JButton("AC");
@@ -75,7 +63,6 @@ public class Window extends JFrame{
                 textfield.setText("");
             }
         });
-        tasten.add(buttonAC);
 
         // Taste "4"
         JButton button4 = new JButton("4");
@@ -85,7 +72,6 @@ public class Window extends JFrame{
                 textfield.setText(textfield.getText()+4);
             }
         });
-        tasten.add(button4);
 
         // Taste "5"
         JButton button5 = new JButton("5");
@@ -95,7 +81,6 @@ public class Window extends JFrame{
                 textfield.setText(textfield.getText()+5);
             }
         });
-        tasten.add(button5);
 
         // Taste "6"
         JButton button6 = new JButton("6");
@@ -105,27 +90,50 @@ public class Window extends JFrame{
                 textfield.setText(textfield.getText()+6);
             }
         });
-        tasten.add(button6);
 
         // Taste "Multi"
         JButton buttonMulti = new JButton("*");
         buttonMulti.addActionListener(new ActionListener() {
 
             public void actionPerformed(ActionEvent e) {
-                textfield.setText(textfield.getText()+"*");
+                if ((textfield.getText().length()>0)){
+                    String einVor = textfield.getText().substring(textfield.getText().length()-1);
+                    if (!(einVor.equals("+"))){
+                        if (!(einVor.equals("-"))){
+                            if (!(einVor.equals(","))){
+                                if (!(einVor.equals(":"))){
+                                    if (!(einVor.equals("*"))){
+                                        textfield.setText(textfield.getText()+"*");
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
         });
-        tasten.add(buttonMulti);
 
         // Taste "Divi"
         JButton buttonDivi = new JButton(":");
         buttonDivi.addActionListener(new ActionListener() {
 
             public void actionPerformed(ActionEvent e) {
-                textfield.setText(textfield.getText()+":");
+                if ((textfield.getText().length()>0)){
+                    String einVor = textfield.getText().substring(textfield.getText().length()-1);
+                    if (!(einVor.equals("+"))){
+                        if (!(einVor.equals("-"))){
+                            if (!(einVor.equals("*"))){
+                                if (!(einVor.equals(","))){
+                                    if (!(einVor.equals(":"))){
+                                        textfield.setText(textfield.getText()+":");
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
         });
-        tasten.add(buttonDivi);
 
         // Taste "7"
         JButton button7 = new JButton("7");
@@ -135,7 +143,6 @@ public class Window extends JFrame{
                 textfield.setText(textfield.getText()+7);
             }
         });
-        tasten.add(button7);
 
         // Taste "8"
         JButton button8 = new JButton("8");
@@ -145,7 +152,6 @@ public class Window extends JFrame{
                 textfield.setText(textfield.getText()+8);
             }
         });
-        tasten.add(button8);
 
         // Taste "9"
         JButton button9 = new JButton("9");
@@ -155,27 +161,42 @@ public class Window extends JFrame{
                 textfield.setText(textfield.getText()+9);
             }
         });
-        tasten.add(button9);
 
         // Taste "Plus"
         JButton buttonPlus = new JButton("+");
         buttonPlus.addActionListener(new ActionListener() {
 
             public void actionPerformed(ActionEvent e) {
-                textfield.setText(textfield.getText()+"+");
+                if ((textfield.getText().length()>0)){
+                    String einVor = textfield.getText().substring(textfield.getText().length()-1);
+                    if (!(einVor.equals(","))){
+                        if (!(einVor.equals("*"))){
+                            if (!(einVor.equals(":"))){
+                                textfield.setText(textfield.getText()+"+");
+                            }
+                        }
+                    }
+                }
             }
         });
-        tasten.add(buttonPlus);
 
         // Taste "Minus"
         JButton buttonMinus = new JButton("-");
         buttonMinus.addActionListener(new ActionListener() {
 
             public void actionPerformed(ActionEvent e) {
-                textfield.setText(textfield.getText()+"-");
+                if ((textfield.getText().length()>0)){
+                    String einVor = textfield.getText().substring(textfield.getText().length()-1);
+                    if (!(einVor.equals(","))) {
+                        if (!(einVor.equals("*"))) {
+                            if (!(einVor.equals(":"))) {
+                                textfield.setText(textfield.getText() + "-");
+                            }
+                        }
+                    }
+                }
             }
         });
-        tasten.add(buttonMinus);
 
         // Taste "0"
         JButton button0 = new JButton("0");
@@ -185,19 +206,29 @@ public class Window extends JFrame{
                 textfield.setText(textfield.getText()+0);
             }
         });
-        tasten.add(button0);
 
         // Taste "Komma"
         JButton buttonKomma = new JButton(",");
         buttonKomma.addActionListener(new ActionListener() {
 
             public void actionPerformed(ActionEvent e) {
-                textfield.setText(textfield.getText()+",");
+                if ((textfield.getText().length()>0)){
+                    String einVor = textfield.getText().substring(textfield.getText().length()-1);
+                    if (!(einVor.equals("+"))){
+                        if (!(einVor.equals("-"))){
+                            if (!(einVor.equals("*"))){
+                                if (!(einVor.equals(":"))){
+                                    textfield.setText(textfield.getText()+",");
+                                    buttonKomma.setEnabled(false);
+                                }
+                            }
+                        }
+                    }
+                }
             }
         });
-        tasten.add(buttonKomma);
 
-        // Taste "Komma"
+        // Taste "Gleich"
         JButton buttonGleich = new JButton("=");
         buttonGleich.addActionListener(new ActionListener() {
 
@@ -205,6 +236,40 @@ public class Window extends JFrame{
 
             }
         });
+
+        // Taste "Del"
+        JButton buttonDel = new JButton("Del");
+        buttonDel.addActionListener(new ActionListener() {
+
+            public void actionPerformed(ActionEvent e) {
+                if(!(textfield.getText().length() == 0)){
+                    String zuloeschen = textfield.getText().substring(textfield.getText().length()-1);
+                    if (zuloeschen.equals(",")){
+                        buttonKomma.setEnabled(true);
+                    }
+                    textfield.setText(textfield.getText().substring(0, textfield.getText().length()-1));
+                }
+
+            }
+        });
+
+        tasten.add(button1);
+        tasten.add(button2);
+        tasten.add(button3);
+        tasten.add(buttonDel);
+        tasten.add(buttonAC);
+        tasten.add(button4);
+        tasten.add(button5);
+        tasten.add(button6);
+        tasten.add(buttonMulti);
+        tasten.add(buttonDivi);
+        tasten.add(button7);
+        tasten.add(button8);
+        tasten.add(button9);
+        tasten.add(buttonPlus);
+        tasten.add(buttonMinus);
+        tasten.add(buttonKomma);
+        tasten.add(button0);
         tasten.add(buttonGleich);
 
         this.add(textfeldpanel);
