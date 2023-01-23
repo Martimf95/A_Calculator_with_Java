@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c953a5a9-c856-46a9-a185-b60f3ed58ee3" name="Changes" comment="Merge remote-tracking branch '1.1/master'">
+    <list default="true" id="c953a5a9-c856-46a9-a185-b60f3ed58ee3" name="Changes" comment="Merge remote-tracking branch 'Version 0.2: Textfeld hinzugefügt '">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TastenListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TastenListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Window.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +34,9 @@
         <option name="url" value="https://github.com/Martimf95/A_Calculator_with_Java" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Window.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -184,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674494582444</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Merge remote-tracking branch 'Version 0.2: Textfeld hinzugefügt '">
+      <created>1674494944305</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1674494944305</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -192,6 +201,7 @@
     <MESSAGE value="Merge remote-tracking branch '1.0/master'" />
     <MESSAGE value="First Idea" />
     <MESSAGE value="Merge remote-tracking branch '1.1/master'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch '1.1/master'" />
+    <MESSAGE value="Merge remote-tracking branch 'Version 0.2: Textfeld hinzugefügt '" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'Version 0.2: Textfeld hinzugefügt '" />
   </component>
 </project>
