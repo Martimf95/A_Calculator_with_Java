@@ -6,12 +6,12 @@ public class Window extends JFrame{
 
     public Window(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setLayout(new GridLayout(2,1,20,20));
+        this.setLayout(new GridLayout(2,1,10,10));
 
         ImageIcon image = new ImageIcon("C:\\Users\\marvi\\Desktop\\Programmieren\\Java\\A_Calculator_with _Java\\src\\taschenrechner.jpg");
         this.setIconImage(image.getImage());
 
-        TextField textfield = new TextField("Zahlen",170);
+        TextField textfield = new TextField("Zahlen", 35);
         this.add(textfield);
 
         JPanel textfeldpanel = new JPanel();
