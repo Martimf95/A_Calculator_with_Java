@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c953a5a9-c856-46a9-a185-b60f3ed58ee3" name="Changes" comment="Merge remote-tracking branch 'Version 0.2: Textfeld hinzugefügt '">
+    <list default="true" id="c953a5a9-c856-46a9-a185-b60f3ed58ee3" name="Changes" comment="Merge remote-tracking branch 'Version 0.2: Weitere Operationen hinzugefügt'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TastenListener.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Window.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +55,7 @@
     "last_opened_file_path": "C:/Users/marvi/Desktop/Programmieren/Java/A_Calculator_with _Java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="A_Calculator_with _Java" />
@@ -63,6 +64,13 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="A_Calculator_with _Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="A_Calculator_with _Java" />
       <method v="2">
@@ -83,20 +91,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="A_Calculator_with _Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674494944305</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Merge remote-tracking branch 'Version 0.2: Weitere Operationen hinzugefügt'">
+      <created>1674496021279</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1674496021279</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -202,6 +210,7 @@
     <MESSAGE value="First Idea" />
     <MESSAGE value="Merge remote-tracking branch '1.1/master'" />
     <MESSAGE value="Merge remote-tracking branch 'Version 0.2: Textfeld hinzugefügt '" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'Version 0.2: Textfeld hinzugefügt '" />
+    <MESSAGE value="Merge remote-tracking branch 'Version 0.2: Weitere Operationen hinzugefügt'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'Version 0.2: Weitere Operationen hinzugefügt'" />
   </component>
 </project>
