@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c953a5a9-c856-46a9-a185-b60f3ed58ee3" name="Changes" comment="Merge remote-tracking branch 'Version 0.2: Weitere Buttons hinzugefügt'">
+    <list default="true" id="c953a5a9-c856-46a9-a185-b60f3ed58ee3" name="Changes" comment="Merge remote-tracking branch 'Version 0.3: Erste Syntaxfehler im voraus verhindert'">
+      <change afterPath="$PROJECT_DIR$/src/Rechnen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Window.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +56,7 @@
     "last_opened_file_path": "C:/Users/marvi/Desktop/Programmieren/Java/A_Calculator_with _Java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="A_Calculator_with _Java" />
@@ -92,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674497826346</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Merge remote-tracking branch 'Version 0.3: Erste Syntaxfehler im voraus verhindert'">
+      <created>1674501114346</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1674501114346</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -226,6 +235,7 @@
     <MESSAGE value="Merge remote-tracking branch 'Version 0.2: Weitere Operationen hinzugefügt'" />
     <MESSAGE value="Merge remote-tracking branch 'Version 0.2: Buttons funktionieren'" />
     <MESSAGE value="Merge remote-tracking branch 'Version 0.2: Weitere Buttons hinzugefügt'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'Version 0.2: Weitere Buttons hinzugefügt'" />
+    <MESSAGE value="Merge remote-tracking branch 'Version 0.3: Erste Syntaxfehler im voraus verhindert'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'Version 0.3: Erste Syntaxfehler im voraus verhindert'" />
   </component>
 </project>

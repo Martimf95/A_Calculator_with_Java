@@ -1,16 +1,22 @@
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+import java.net.URL;
 
 public class Window extends JFrame{
 
 
-    public Window(){
+    public Window() throws IOException {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(new GridLayout(2,1,10,20));
 
-        ImageIcon image = new ImageIcon("C:\\Users\\marvi\\Desktop\\Programmieren\\Java\\A_Calculator_with _Java\\src\\taschenrechner.jpg");
+        BufferedImage img3 = ImageIO.read( new URL("https://img.icons8.com/color/480/calculator--v1.png"));
+
+        ImageIcon image = new ImageIcon(img3);
         this.setIconImage(image.getImage());
 
         TextField textfield = new TextField("", 35);
