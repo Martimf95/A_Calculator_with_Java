@@ -45,7 +45,6 @@ public class Window extends JFrame{
         // Taste "2"
         JButton button2 = new JButton("2");
         button2.addActionListener(new ActionListener() {
-
             public void actionPerformed(ActionEvent e) {
                 textfield.setText(textfield.getText()+2);
             }
@@ -54,7 +53,6 @@ public class Window extends JFrame{
         // Taste "3"
         JButton button3 = new JButton("3");
         button3.addActionListener(new ActionListener() {
-
             public void actionPerformed(ActionEvent e) {
                 textfield.setText(textfield.getText()+3);
             }
@@ -64,7 +62,6 @@ public class Window extends JFrame{
         // Taste "AC"
         JButton buttonAC = new JButton("AC");
         buttonAC.addActionListener(new ActionListener() {
-
             public void actionPerformed(ActionEvent e) {
                 textfield.setText("");
             }
@@ -73,7 +70,6 @@ public class Window extends JFrame{
         // Taste "4"
         JButton button4 = new JButton("4");
         button4.addActionListener(new ActionListener() {
-
             public void actionPerformed(ActionEvent e) {
                 textfield.setText(textfield.getText()+4);
             }
@@ -82,7 +78,6 @@ public class Window extends JFrame{
         // Taste "5"
         JButton button5 = new JButton("5");
         button5.addActionListener(new ActionListener() {
-
             public void actionPerformed(ActionEvent e) {
                 textfield.setText(textfield.getText()+5);
             }
@@ -91,7 +86,6 @@ public class Window extends JFrame{
         // Taste "6"
         JButton button6 = new JButton("6");
         button6.addActionListener(new ActionListener() {
-
             public void actionPerformed(ActionEvent e) {
                 textfield.setText(textfield.getText()+6);
             }
@@ -100,7 +94,6 @@ public class Window extends JFrame{
         // Taste "Multi"
         JButton buttonMulti = new JButton("*");
         buttonMulti.addActionListener(new ActionListener() {
-
             public void actionPerformed(ActionEvent e) {
                 if ((textfield.getText().length()>0)){
                     String einVor = textfield.getText().substring(textfield.getText().length()-1);
@@ -122,7 +115,6 @@ public class Window extends JFrame{
         // Taste "Divi"
         JButton buttonDivi = new JButton(":");
         buttonDivi.addActionListener(new ActionListener() {
-
             public void actionPerformed(ActionEvent e) {
                 if ((textfield.getText().length()>0)){
                     String einVor = textfield.getText().substring(textfield.getText().length()-1);
@@ -144,7 +136,6 @@ public class Window extends JFrame{
         // Taste "7"
         JButton button7 = new JButton("7");
         button7.addActionListener(new ActionListener() {
-
             public void actionPerformed(ActionEvent e) {
                 textfield.setText(textfield.getText()+7);
             }
@@ -153,7 +144,6 @@ public class Window extends JFrame{
         // Taste "8"
         JButton button8 = new JButton("8");
         button8.addActionListener(new ActionListener() {
-
             public void actionPerformed(ActionEvent e) {
                 textfield.setText(textfield.getText()+8);
             }
@@ -162,7 +152,6 @@ public class Window extends JFrame{
         // Taste "9"
         JButton button9 = new JButton("9");
         button9.addActionListener(new ActionListener() {
-
             public void actionPerformed(ActionEvent e) {
                 textfield.setText(textfield.getText()+9);
             }
@@ -171,7 +160,6 @@ public class Window extends JFrame{
         // Taste "Plus"
         JButton buttonPlus = new JButton("+");
         buttonPlus.addActionListener(new ActionListener() {
-
             public void actionPerformed(ActionEvent e) {
                 if ((textfield.getText().length()>0)){
                     String einVor = textfield.getText().substring(textfield.getText().length()-1);
@@ -189,7 +177,6 @@ public class Window extends JFrame{
         // Taste "Minus"
         JButton buttonMinus = new JButton("-");
         buttonMinus.addActionListener(new ActionListener() {
-
             public void actionPerformed(ActionEvent e) {
                 if ((textfield.getText().length()>0)){
                     String einVor = textfield.getText().substring(textfield.getText().length()-1);
@@ -207,7 +194,6 @@ public class Window extends JFrame{
         // Taste "0"
         JButton button0 = new JButton("0");
         button0.addActionListener(new ActionListener() {
-
             public void actionPerformed(ActionEvent e) {
                 textfield.setText(textfield.getText()+0);
             }
@@ -216,7 +202,6 @@ public class Window extends JFrame{
         // Taste "Komma"
         JButton buttonKomma = new JButton(",");
         buttonKomma.addActionListener(new ActionListener() {
-
             public void actionPerformed(ActionEvent e) {
                 if ((textfield.getText().length()>0)){
                     String einVor = textfield.getText().substring(textfield.getText().length()-1);
@@ -237,8 +222,23 @@ public class Window extends JFrame{
         // Taste "Gleich"
         JButton buttonGleich = new JButton("=");
         buttonGleich.addActionListener(new ActionListener() {
-
             public void actionPerformed(ActionEvent e) {
+                if ((textfield.getText().length()>0)){
+                    String einVor = textfield.getText().substring(textfield.getText().length()-1);
+                    if (!(einVor.equals(","))) {
+                        if (!(einVor.equals("*"))) {
+                            if (!(einVor.equals(":"))) {
+                                if (!(einVor.equals("+"))){
+                                    if (!(einVor.equals("-"))){
+                                        String eingabe = textfield.getText();
+                                        System.out.println(eingabe);
+                                        new Rechnen();
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
 
             }
         });
@@ -246,7 +246,6 @@ public class Window extends JFrame{
         // Taste "Del"
         JButton buttonDel = new JButton("Del");
         buttonDel.addActionListener(new ActionListener() {
-
             public void actionPerformed(ActionEvent e) {
                 if(!(textfield.getText().length() == 0)){
                     String zuloeschen = textfield.getText().substring(textfield.getText().length()-1);
